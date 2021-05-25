@@ -1,0 +1,77 @@
+.post{
+    margin-top: 15px;
+    width: 1700px;
+    height: 460px;
+    border-style: solid;
+    border-width: 1px;
+    border-image: linear-gradient(90deg, #A100FF, #0074FF, #00FF8B) 1;
+    border-bottom: 2px solid white;
+    background: url(assets/gallery/slide.svg);
+    background-size: cover;
+    background-position: 50% 50%;
+}
+
+.posttitle{
+    color: white;
+    font-family: 'GLCaps';
+    font-size: 42px;
+    margin-block-start: 0;
+    margin-block-end: 0;
+}
+
+.postdesc{
+    color: white;
+    opacity: 80%;
+    font-family: 'BOGCaps';
+    font-size: 27px;
+    width: 1100px;
+    display: inline-block;
+    margin-block-start: 0;
+    margin-block-end: 0;
+}
+
+.seemore{
+    background: linear-gradient(45deg, #A100FF, #0074FF, #00FF8B);
+    width: 400px;
+    height: 100px;
+    color: white;
+    font-family: 'GLCaps';
+    border: none;
+    font-size: 42px;
+    cursor: pointer;
+}
+
+.content {
+    width: 1550px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 285px;
+}
+
+.seemore:hover{
+    box-shadow: 0px 0px 10px 3px #5600ff;
+    transition: 0.3s;
+}
+
+@media only screen and (max-width: 1000px){
+    .post{
+        width: 280px;
+        height: 250px;
+    }
+    .content {
+        width: 275px;
+        margin-top: 110px;
+    }
+    .posttitle{
+        font-size: 20px;
+    }
+    .postdesc{
+        width: 275px;
+        font-size: 12px;
+    }
+    .seemore{
+        width: 275px;
+        height: 50px;
+        font-size: 25px;
+    }
+}

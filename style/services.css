@@ -1,0 +1,47 @@
+.service{
+    margin-top: 15px;
+    width: 547px;
+    height: 690px;
+    border-style: solid;
+    border-width: 1px;
+    border-image: linear-gradient(90deg, #A100FF, #0074FF, #00FF8B) 1;
+    border-bottom: 2px solid white;
+    background: url(assets/gallery/slide.svg);
+    background-size: cover;
+    background-position: 50% 50%;
+    display: inline-block;
+    margin-right: 15px;
+}
+
+.servicetitle{
+    width: 547px;
+    height: 90px;
+    background: linear-gradient(90deg, #A100FF, #0074FF, #00FF8B);
+    margin-top: 600px;
+}
+
+.servicetitle h1{
+    font-family: 'BOGCaps';
+    color: #080F1C;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #080F1C;
+    letter-spacing: 2px;
+    font-size: 30px;
+    padding-top: 26px;
+    text-align: center;
+}
+
+@media only screen and (max-width: 1000px){
+    .service{
+        width: 280px;
+        height: 350px;
+    }
+    .servicetitle{
+        width: 280px;
+        margin-top: 260px;
+    }
+    .servicetitle h1{
+        font-size: 25px;
+        padding-top: 14px;
+    }
+}

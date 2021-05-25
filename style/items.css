@@ -1,0 +1,180 @@
+.itemimg{
+    margin-top: 15px;
+    width: 1085px;
+    border-style: solid;
+    border-width: 1px;
+    border-image: linear-gradient(90deg, #A100FF, #0074FF, #00FF8B) 1;
+}
+
+.itemtitle{
+    font-family: 'BOGCaps';
+    font-size: 45px;
+    color: white;
+    max-width: 1080px;
+    margin-block-start: 0px;
+    margin-block-end: 0px;
+}
+
+.itemprice{
+    font-family: 'GLCaps';
+    font-size: 85px;
+    color: #0f7dea;
+    margin-block-start: 0px;
+    margin-block-end: 0px;
+}
+
+.instock, .contactus{
+    font-family: 'BOGCaps';
+    font-size: 38px;
+    color: white;
+    margin-block-start: 0px;
+    margin-block-end: 0px;
+}
+
+.instockico{
+    height: 25px;
+}
+
+.number{
+    width: 1085px;
+    height: 140px;
+    background: linear-gradient(45deg, #A100FF, #0074FF, #00FF8B);
+}
+
+.number h1{
+    font-family: 'GLCaps';
+    text-align: center;
+    color: white;
+    font-size: 85px;
+    line-height: 140px;
+    margin-block-start: 0px;
+    margin-block-end: 0px;
+}
+
+.aboutitem{
+    font-family: 'GLCaps';
+    font-size: 55px;
+    color: white;
+    margin-block-start: 30px;
+    margin-block-end: 0px;
+}
+
+.aboutitemform{
+    width: 1085px;
+    height: 427px;
+    background-color: #040911;
+    margin-top: 15px;
+    border-style: solid;
+    border-width: 1px;
+    border-image: linear-gradient(90deg, #A100FF, #0074FF, #00FF8B) 1;
+}
+
+.subject{
+    font-size: 38px;
+    font-family: 'BOGCaps';
+    color: #F2F2F2;
+    padding-left: 30px;
+    padding-bottom: 30px;
+}
+
+.subjects{
+    width: 585px;
+    display: inline-block;
+}
+
+.sub{
+    font-size: 38px;
+    font-family: 'BOGCaps';
+    color: #0f7dea;
+    text-align: right;
+    padding-right: 30px;
+    padding-bottom: 30px;
+}
+
+.subs{
+    float: right;
+    width: 500px;
+}
+
+.subject, .sub{
+    border-width: 1px;
+    border-bottom: 2px solid #272727
+}
+
+.side1{
+    float: left;
+}
+
+.side2{
+    padding-left: 20px;
+    float: right;
+}
+
+.similar{
+    font-family: 'GLCaps';
+    color: white;
+    font-size: 34px;
+}
+
+.post{
+    float: none;
+}
+
+@media only screen and (max-width: 1000px){
+    .itemimg{
+        width: 280px;
+    }
+    .itemtitle {
+        width: 280px;
+        font-size: 20px;
+    }
+    .itemprice {
+        font-size: 40px;
+        display: inline-block;
+    }
+    .instock, .contactus {
+        font-size: 20px;
+    }
+    .instock{
+        display: inline-block;
+    }
+    .contactus{
+        width: 280px;
+    }
+    .number {
+        width: 280px;
+        height: 80px;
+    }
+    .number h1{
+        font-size: 30px;
+        line-height: 80px;
+    }
+    .aboutitem{
+        font-size: 22px;
+    }
+    .subject, .sub {
+        font-size: 10px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+    .aboutitemform{
+        width: 285px;
+        height: 207px;
+    }
+    .subject{
+        width: 150px;
+        padding-left: 15px;
+    }
+    .sub{
+        padding-right: 15px;
+    }
+    .subjects{
+        width: 150px;
+    }
+    .subs{
+        width: 120px;
+    }
+    .side2{
+        display: none;
+    }
+}

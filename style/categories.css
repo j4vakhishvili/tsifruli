@@ -1,0 +1,112 @@
+.categories {
+    width: 325px;
+    height: 355px;
+    background-color: #040911;
+    margin-top: 15px;
+    border-style: solid;
+    border-width: 1px;
+    border-image: linear-gradient(90deg, #A100FF, #0074FF, #00FF8B) 1;
+    border-bottom: 2px solid white;
+    display: inline-block;
+}
+
+.categoriesname {
+    color: white;
+    font-size: 24px;
+    font-family: 'GLCaps', sans-serif;
+    margin-block-start: 0.3em;
+    margin-block-end: 0em;
+    padding-left: 70px;
+    padding-bottom: 10px;
+    border-width: 1px;
+    border-image: linear-gradient(90deg, #A100FF, #0074FF, #00FF8B) 1;
+    border-bottom: 2px solid white;
+    border-top: 1px;
+    border-left: 1px;
+    border-right: 1px;
+}
+
+.categoriesmenu {
+    list-style-type: none;
+}
+
+.categoriesmenu li {
+    font-family: 'BOGCaps', sans-serif;
+    font-size: 20px;
+    color: white;
+    cursor: url(assets/icons/cursors/pointer.png), pointer;
+    margin-bottom: 5px;
+}
+
+.categoriesmenu li:hover{
+    text-decoration: underline;
+    transition: 0.5s;
+}
+
+.on{
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: white;
+}
+
+@media only screen and (max-width: 1000px){
+    .categories{
+        display: none;
+    }
+    .m-categories{
+        display: block;
+        width: 280px;
+        height: 460px;
+        background-color: #040911;
+        border-style: solid;
+        border-width: 1px;
+        border-image: linear-gradient(90deg, #A100FF, #0074FF, #00FF8B) 1;
+        margin-top: 15px;
+        float: none;
+        margin-bottom: 40px;
+    }
+    .categoriesname {
+        padding-left: 50px;
+    }
+    .categoriesmenu{
+        padding-inline-start: 10px;
+    }
+    .categoriesmenu li{
+        font-size: 26px;
+        margin-bottom: 0px;
+    }
+}
+
+/**
+<div class="categories">
+    <h1 class="categoriesname">კატეგორიები</h1>
+        <ul class="categoriesmenu">
+            <a href="#" style="text-decoration: none;">
+                <li class="builded">აწყობილი სისტემები</li>
+            </a>
+            <a href="#" style="text-decoration: none;">
+                <li class="motherboards">დედაბარათები</li>
+            </a>
+            <a href="#" style="text-decoration: none;">
+                <li class="videoboards">ვიდეობარათები</li>
+            </a>
+            <a href="#" style="text-decoration: none;">
+                <li class="procesors">პროცესორები</li>
+            </a>
+            <a href="#" style="text-decoration: none;">
+                <li class="psu">კვების ბლოკები</li>
+            </a>
+            <a href="#" style="text-decoration: none;">
+                <li class="hdd">მეხსიერება HDD</li>
+            </a>
+            <a href="#" style="text-decoration: none;">
+                <li class="ssd">მეხსიერება SSD</li>
+            </a>
+            <a href="#" style="text-decoration: none;">
+                <li class="coolers">ქულერები</li>
+            </a>
+            <a href="#" style="text-decoration: none;">
+                <li class="cases">ქეისები</li>
+            </a>
+        </ul>
+</div>
+**/

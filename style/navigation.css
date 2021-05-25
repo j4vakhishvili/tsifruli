@@ -1,0 +1,287 @@
+.container {
+    width: 1700px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.logo {
+    margin-top: 15px;
+    width: 330px;
+    height: 75px;
+    background: linear-gradient(45deg, #A100FF, #0074FF, #00FF8B);
+    display: inline-block;
+    box-shadow: linear-gradient(90deg, #A100FF, #0074FF, #00FF8B);
+}
+
+.logo a {
+    font-size: 55px;
+    font-family: 'BOGCaps';
+    color: #080F1C;
+    -webkit-text-stroke-width: 2.5px;
+    -webkit-text-stroke-color: #080F1C;
+    text-decoration: none;
+    padding: 25px;
+    letter-spacing: 15px;
+}
+
+.logo a:hover {
+    color: #EBECED;
+    -webkit-text-stroke-width: 2.5px;
+    -webkit-text-stroke-color: #EBECED;
+    transition: 0.3s;
+}
+
+.menu {
+    list-style-type: none;
+    padding-inline-start: 0px;
+    float: right;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+    font-size: 30px;
+}
+
+.menu a {
+    text-decoration: none;
+}
+
+.menu li {
+    display: inline-block;
+    font-family: 'GLCaps', sans-serif;
+    color: #F2F2F2;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 30px;
+    padding-bottom: 10px;
+}
+
+.active {
+    border-style: solid;
+    border-width: 8px;
+    border-image: linear-gradient(90deg, #A100FF, #0074FF, #00FF8B) 1;
+    border-top: 10px;
+    border-left: 10px;
+    border-right: 10px;
+}
+
+.menu li:hover {
+    border-bottom: 8px solid white;
+    transition: 0.3s;
+}
+
+.m-menu {
+    float: right;
+    display: none;
+}
+
+.overlay {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 999;
+    top: 0;
+    left: 0;
+    background: linear-gradient(45deg, #A100FF, #0074FF, #00FF8B);
+    overflow-x: hidden;
+    transition: 0.5s;
+}
+
+.overlay-content {
+    position: relative;
+    top: 5%;
+    width: 100%;
+    margin-top: 30px;
+}
+
+.overlay a {
+    padding: 3px;
+    text-decoration: none;
+    font-family: 'GLCaps', sans-serif;
+    font-size: 30px;
+    color: #f1f1f1;
+    display: block;
+    transition: 0.3s;
+    padding-left: 5px;
+}
+
+.overlay a:hover,
+.overlay a:focus {
+    color: #f1f1f1;
+}
+
+.overlay .closebtn {
+    top: 20px;
+    float: right;
+    margin-right: 5px;
+    font-size: 50px;
+}
+
+#navbar {
+    width: 100%;
+    height: 70px;
+    background-color: #040911;
+    overflow: hidden;
+    z-index: 90;
+    position: fixed;
+    top: -80px;
+    transition: 0.5s;
+}
+
+#menu {
+    list-style-type: none;
+    padding-inline-start: 0px;
+    float: right;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+    font-size: 30px;
+}
+
+#menu a {
+    text-decoration: none;
+}
+
+#menu li {
+    display: inline-block;
+    font-family: 'GLCaps', sans-serif;
+    color: #F2F2F2;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 14px;
+    padding-bottom: 10px;
+}
+
+#active {
+    border-style: solid;
+    border-width: 8px;
+    border-image: linear-gradient(90deg, #A100FF, #0074FF, #00FF8B) 1;
+    border-top: 10px;
+    border-left: 10px;
+    border-right: 10px;
+}
+
+#menu li:hover {
+    border-bottom: 8px solid white;
+    transition: 0.3s;
+}
+
+#navbar .logo {
+    margin-top: -2px;
+}
+
+@media only screen and (max-width: 1000px) {
+    .container {
+        width: 280px;
+    }
+
+    .logo {
+        width: 150px;
+        height: 37.5px;
+    }
+
+    .logo a {
+        font-size: 30px;
+        padding: 12px;
+        letter-spacing: 5px;
+    }
+
+    .menu {
+        display: none;
+    }
+
+    #menu {
+        display: none;
+    }
+
+    .m-menu {
+        display: block;
+        height: 35px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+
+    .activated {
+        background: none;
+        border-left: 6px solid #F2F2F2;
+        border-bottom: none;
+    }
+
+    #navbar .logo {
+        margin-top: 15px;
+    }
+}
+
+/**
+        <div id="navbar">
+            <div class="container">
+                <div class="logo"><a href="index.html">tsifruli</a></div>
+                <img src="style/assets/icons/menu.svg" class="m-menu" onclick="openNav()">
+                <ul id="menu">
+                    <a href="index.html" style="text-decoration: none;">
+                        <li id="active">მთავარი</li>
+                    </a>
+                    <a href="news.html" style="text-decoration: none;">
+                        <li id="services">სიახლეები</li>
+                    </a>
+                    <a href="services.html" style="text-decoration: none;">
+                        <li id="about">სერვისები</li>
+                    </a>
+                    <a href="aboutus.html" style="text-decoration: none;">
+                        <li id="news">ჩვენს შესახებ</li>
+                    </a>
+                </ul>
+            </div>
+        </div>
+        <header>
+            <div class="container">
+                <div class="logo"><a href="index.html">tsifruli</a></div>
+                <img src="style/assets/icons/menu.svg" class="m-menu" onclick="openNav()">
+                <ul class="menu">
+                    <a href="index.html"><li class="active">მთავარი</li></a>
+                    <a href="news.html"><li>სიახლეები</li></a>
+                    <a href="services.html"><li>სერვისები</li></a>
+                    <a href="aboutus.html"><li>ჩვენს შესახებ</li></a>
+                </ul>
+                <div id="myNav" class="overlay">
+                    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                    <div class="overlay-content">
+                        <div class="container">
+                      <a href="index.html" class="activated">მთავარი</a><br/>
+                      <a href="news.html">სიახლეები</a><br/>
+                      <a href="services.html">სერვისები</a><br/>
+                      <a href="aboutus.html">ჩვენს შესახებ</a>
+                      <div class="m-categories">
+                        <h1 class="categoriesname">კატეგორიები</h1>
+                        <ul class="categoriesmenu">
+                            <a href="#" style="text-decoration: none;">
+                                <li class="builded">აწყობილი სისტემები</li>
+                            </a>
+                            <a href="#" style="text-decoration: none;">
+                                <li class="motherboards">დედაბარათები</li>
+                            </a>
+                            <a href="#" style="text-decoration: none;">
+                                <li class="videoboards">ვიდეობარათები</li>
+                            </a>
+                            <a href="#" style="text-decoration: none;">
+                                <li class="procesors">პროცესორები</li>
+                            </a>
+                            <a href="#" style="text-decoration: none;">
+                                <li class="psu">კვების ბლოკები</li>
+                            </a>
+                            <a href="#" style="text-decoration: none;">
+                                <li class="hdd">მეხსიერება HDD</li>
+                            </a>
+                            <a href="#" style="text-decoration: none;">
+                                <li class="ssd">მეხსიერება SSD</li>
+                            </a>
+                            <a href="#" style="text-decoration: none;">
+                                <li class="coolers">ქულერები</li>
+                            </a>
+                            <a href="#" style="text-decoration: none;">
+                                <li class="cases">ქეისები</li>
+                            </a>
+                        </ul>
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+**/
