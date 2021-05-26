@@ -1,0 +1,15 @@
+@media only screen and (max-width: 1740px) {
+    .post{
+        width: 570px;
+        height: 515px;
+    }
+    .postcardimg {
+        width: 540px;
+    }
+    .seemore {
+        width: 540px;
+    }
+    .posttitle {
+        width: 551px;
+    }
+}

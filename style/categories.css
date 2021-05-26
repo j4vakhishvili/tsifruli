@@ -48,7 +48,35 @@
     -webkit-text-stroke-color: white;
 }
 
-@media only screen and (max-width: 1000px){
+@media only screen and (max-width: 1230px) {
+    .categories{
+        display: none;
+    }
+    .m-categories{
+        display: block;
+        width: 280px;
+        height: 460px;
+        background-color: #040911;
+        border-style: solid;
+        border-width: 1px;
+        border-image: linear-gradient(90deg, #A100FF, #0074FF, #00FF8B) 1;
+        margin-top: 15px;
+        float: none;
+        margin-bottom: 40px;
+    }
+    .categoriesname {
+        padding-left: 50px;
+    }
+    .categoriesmenu{
+        padding-inline-start: 10px;
+    }
+    .categoriesmenu li{
+        font-size: 26px;
+        margin-bottom: 0px;
+    }
+}
+
+@media only screen and (max-width: 810px){
     .categories{
         display: none;
     }

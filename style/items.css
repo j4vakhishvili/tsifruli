@@ -120,7 +120,28 @@
     float: none;
 }
 
-@media only screen and (max-width: 1000px){
+@media only screen and (max-width: 1740px) {
+    .itemimg {
+        width: 950px;
+    }
+    .itemtitle {
+        width: 950px;
+    }
+    .number {
+        width: 950px;
+    }
+    .aboutitemform {
+        width: 950px;
+    }
+    .side2 {
+        padding-left: 3px;
+    }
+    .subjects {
+        width: 450px;
+    }
+}
+
+@media only screen and (max-width: 810px){
     .itemimg{
         width: 280px;
     }

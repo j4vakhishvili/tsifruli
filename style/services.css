@@ -31,7 +31,21 @@
     text-align: center;
 }
 
-@media only screen and (max-width: 1000px){
+@media only screen and (max-width: 1740px) {
+    .service{
+        width: 480px;
+        height: 600px;
+    }
+    .servicetitle{
+        margin-top: 510px;
+        width: 480px;
+    }
+    .servicetitle h1{
+        font-size: 27px;
+    }
+}
+
+@media only screen and (max-width: 810px){
     .service{
         width: 280px;
         height: 350px;

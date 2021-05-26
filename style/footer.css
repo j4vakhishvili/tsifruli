@@ -105,7 +105,25 @@ footer{
       100%{background-position:0% 50%}
   }
 
-@media only screen and (max-width: 1000px){
+@media only screen and (max-width: 1740px) {
+    .socialft {
+        width: 932px;
+    }
+}  
+
+@media only screen and (max-width: 1555px) {   
+    .socialft {
+        width: 632px;
+    }
+}
+
+@media only screen and (max-width: 1230px){
+    .socialft {
+        width: 225px;
+    }
+}
+
+@media only screen and (max-width: 810px){
     .tsifruliftlogo{
         margin-bottom: 15px;
     }
@@ -119,6 +137,7 @@ footer{
         height: 200px;
     }
 }
+
 
 /**
 <div class="ftdecor"></div>
