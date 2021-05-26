@@ -13,3 +13,19 @@
         width: 551px;
     }
 }
+
+@media only screen and (max-width: 810px){
+    .post{
+        width: 280px;
+        height: 365px;
+    }
+    .postcardimg{
+        width: 250px;
+    }
+    .seemore{
+        width: 250px;
+    }
+    .posttitle{
+        width: 265px;
+    }
+}
