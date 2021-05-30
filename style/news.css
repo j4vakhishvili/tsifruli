@@ -66,6 +66,34 @@
     }
 }
 
+@media only screen and (max-width: 1555px) {
+    .post {
+        width: 1200px;
+    }
+    .content{
+        width: 1000px;
+    }
+    .postdesc {
+        width: 650px;
+        font-size: 20px;
+    }
+    .seemore{
+        font-size: 35px;
+        width: 346px;
+        height: 85px;
+    }
+}
+
+@media only screen and (max-width : 1330px) {
+    .post {
+        width: 800px;
+    }
+    .content{
+        width: 680px;
+        margin-top: 220px;
+    }
+}
+
 @media only screen and (max-width: 810px){
     .post{
         width: 280px;

@@ -141,6 +141,34 @@
     }
 }
 
+@media only screen and (max-width: 1555px) {
+    .itemimg, .itemtitle, .number, .aboutitemform{
+        width: 780px;
+    }
+    .subject{
+        width: 420px;
+    }
+    .subs{
+        width: 350px;
+    }
+    .subjects {
+        width: 400px;
+    }
+}
+
+@media only screen and (max-width: 1230px) {
+    .itemimg, .itemtitle, .number, .aboutitemform{
+        width: 800px;
+    }
+    .side2{
+        display: none;
+    }
+    .subject{
+        width: 425px;
+    }
+    
+}
+
 @media only screen and (max-width: 810px){
     .itemimg{
         width: 280px;
@@ -174,13 +202,13 @@
         font-size: 22px;
     }
     .subject, .sub {
-        font-size: 10px;
+        font-size: 15px;
         padding-top: 15px;
         padding-bottom: 15px;
     }
     .aboutitemform{
         width: 285px;
-        height: 207px;
+        height: 244px;
     }
     .subject{
         width: 150px;

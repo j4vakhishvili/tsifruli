@@ -45,6 +45,37 @@
     }
 }
 
+@media only screen and (max-width: 1555px) {
+    .service {
+        width: 380px;
+        height: 475px;
+    }
+    .servicetitle {
+        margin-top: 385px;
+        width: 380px;
+    }
+    .servicetitle h1 {
+        padding-top: 34px;
+        font-size: 20px;
+    }
+}
+
+@media only screen and (max-width: 1330px){
+    .service {
+        width: 233px;
+        height: 350px;
+        margin-right: 5px;
+    }
+    .servicetitle{
+        width: 234px;
+        margin-top: 260px;
+    }
+    .servicetitle h1{
+        font-size: 25px;
+        padding-top: 14px;
+    }
+}
+
 @media only screen and (max-width: 810px){
     .service{
         width: 280px;

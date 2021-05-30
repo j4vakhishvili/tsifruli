@@ -1,21 +1,29 @@
 .categories {
-    width: 460px;
-    height: 450px;
-    background-color: #F2F2F2;
-    border: 2px solid #E4E9EA;
+    width: 325px;
+    height: 355px;
+    background-color: #040911;
     margin-top: 15px;
-    float: right;
+    border-style: solid;
+    border-width: 1px;
+    border-image: linear-gradient(90deg, #A100FF, #0074FF, #00FF8B) 1;
+    border-bottom: 2px solid white;
+    display: inline-block;
 }
 
 .categoriesname {
-    color: #191919;
-    font-size: 2em;
+    color: white;
+    font-size: 24px;
     font-family: 'GLCaps', sans-serif;
     margin-block-start: 0.3em;
     margin-block-end: 0em;
-    padding-left: 110px;
+    padding-left: 70px;
     padding-bottom: 10px;
-    border-bottom: 2px solid #E4E9EA;
+    border-width: 1px;
+    border-image: linear-gradient(90deg, #A100FF, #0074FF, #00FF8B) 1;
+    border-bottom: 2px solid white;
+    border-top: 1px;
+    border-left: 1px;
+    border-right: 1px;
 }
 
 .categoriesmenu {
@@ -24,8 +32,8 @@
 
 .categoriesmenu li {
     font-family: 'BOGCaps', sans-serif;
-    font-size: 28px;
-    color: #191919;
+    font-size: 20px;
+    color: white;
     cursor: url(assets/icons/cursors/pointer.png), pointer;
     margin-bottom: 5px;
 }
@@ -37,54 +45,27 @@
 
 .on{
     -webkit-text-stroke-width: 1px;
-    -webkit-text-stroke-color: black;
+    -webkit-text-stroke-color: white;
 }
 
-.m-categories{
-    display: none;
-    background-color: #F2F2F2;
-    border: 2px solid #E4E9EA;
-    float: right;
-}
-
-@media only screen and (max-width: 1430px){
+@media only screen and (max-width: 1230px) {
     .categories{
         display: none;
     }
     .m-categories{
         display: block;
-        width: 385px;
-        height: 400px;
-        margin-top: -275px;
-    }
-    .categoriesname {
-        padding-left: 30px;
-    }
-    .categoriesmenu{
-        padding-inline-start: 10px;
-    }
-    .categoriesmenu li{
-        font-size: 26px;
-        margin-bottom: 0px;
-    }
-}
-
-@media only screen and (max-width: 1000px){
-    .categories{
-        display: none;
-    }
-    .m-categories{
-        display: block;
-        width: 290px;
+        width: 280px;
         height: 460px;
-        background-color: #F2F2F2;
-        border: 2px solid #E4E9EA;
+        background-color: #040911;
+        border-style: solid;
+        border-width: 1px;
+        border-image: linear-gradient(90deg, #A100FF, #0074FF, #00FF8B) 1;
         margin-top: 15px;
         float: none;
-        margin-bottom: 30px;
+        margin-bottom: 40px;
     }
     .categoriesname {
-        padding-left: 30px;
+        padding-left: 50px;
     }
     .categoriesmenu{
         padding-inline-start: 10px;
@@ -95,7 +76,35 @@
     }
 }
 
-/** CATEGORIES
+@media only screen and (max-width: 810px){
+    .categories{
+        display: none;
+    }
+    .m-categories{
+        display: block;
+        width: 280px;
+        height: 460px;
+        background-color: #040911;
+        border-style: solid;
+        border-width: 1px;
+        border-image: linear-gradient(90deg, #A100FF, #0074FF, #00FF8B) 1;
+        margin-top: 15px;
+        float: none;
+        margin-bottom: 40px;
+    }
+    .categoriesname {
+        padding-left: 50px;
+    }
+    .categoriesmenu{
+        padding-inline-start: 10px;
+    }
+    .categoriesmenu li{
+        font-size: 26px;
+        margin-bottom: 0px;
+    }
+}
+
+/**
 <div class="categories">
     <h1 class="categoriesname">კატეგორიები</h1>
         <ul class="categoriesmenu">

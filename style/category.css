@@ -14,6 +14,41 @@
     }
 }
 
+@media only screen and (max-width: 1550px) {
+    .post{
+        width: 420px;
+        height: 425px;
+    }
+    .postcardimg{
+        width: 390px;
+    }
+    .seemore{
+        width: 390px;
+    }
+    .posttitle{
+        width: 424px;
+    }
+}
+
+@media only screen and (max-width: 1230px) {
+    .post{
+        width: 388px;
+        height: 407px;
+        float: left;
+        margin-right: 10px;
+        margin-left: 0px;
+    }
+    .postcardimg{
+        width: 358px;
+    }
+    .seemore{
+        width: 358px;
+    }
+    .posttitle{
+        width: 386px;
+    }
+}
+
 @media only screen and (max-width: 810px){
     .post{
         width: 280px;
