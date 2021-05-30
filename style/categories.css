@@ -1,6 +1,6 @@
 .categories {
     width: 325px;
-    height: 355px;
+    height: 405px;
     background-color: #040911;
     margin-top: 15px;
     border-style: solid;
@@ -55,7 +55,7 @@
     .m-categories{
         display: block;
         width: 280px;
-        height: 460px;
+        height: 535px;
         background-color: #040911;
         border-style: solid;
         border-width: 1px;
@@ -83,7 +83,7 @@
     .m-categories{
         display: block;
         width: 280px;
-        height: 460px;
+        height: 535px;
         background-color: #040911;
         border-style: solid;
         border-width: 1px;

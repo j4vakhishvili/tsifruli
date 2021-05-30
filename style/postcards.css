@@ -1,7 +1,7 @@
 .post{
     margin-top: 15px;
     width: 445px;
-    height: 440px;
+    height: 420px;
     background-color: #040911;
     border-style: solid;
     border-width: 1px;
@@ -53,7 +53,7 @@
 @media only screen and (max-width: 1740px) {
     .post{
         width: 488px;
-        height: 470px;
+        height: 448px;
     }
     .seemore {
         width: 455px;
@@ -69,7 +69,7 @@
 @media only screen and (max-width: 1555px) {
     .post {
         width: 388px;
-        height: 425px;
+        height: 385px;
     }
     .postcardimg {
         width: 357px;
@@ -85,7 +85,7 @@
 @media only screen and (max-width: 810px){
     .post{
         width: 280px;
-        height: 365px;
+        height: 345px;
     }
     .postcardimg{
         width: 250px;

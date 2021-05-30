@@ -1,7 +1,7 @@
 @media only screen and (max-width: 1740px) {
     .post{
         width: 570px;
-        height: 515px;
+        height: 495px;
     }
     .postcardimg {
         width: 540px;
@@ -17,7 +17,7 @@
 @media only screen and (max-width: 1550px) {
     .post{
         width: 420px;
-        height: 425px;
+        height: 405px;
     }
     .postcardimg{
         width: 390px;
@@ -31,9 +31,9 @@
 }
 
 @media only screen and (max-width: 1230px) {
-    .post{
+    .post {
         width: 388px;
-        height: 407px;
+        height: 385px;
         float: left;
         margin-right: 10px;
         margin-left: 0px;
@@ -52,7 +52,7 @@
 @media only screen and (max-width: 810px){
     .post{
         width: 280px;
-        height: 365px;
+        height: 345px;
     }
     .postcardimg{
         width: 250px;
