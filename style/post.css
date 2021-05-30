@@ -1,0 +1,116 @@
+.posts{
+    float: left;
+}
+
+.post{
+    margin-top: 15px;
+    width: 412px;
+    height: 480px;
+    background-color: #F2F2F2;
+    border: 2px solid #E4E9EA;
+    display: inline-block;
+    margin-right: 13.5px;
+}
+
+.cover{
+    padding: 14px 14px 0px 14px;
+}
+
+.title{
+    padding-left: 16px;
+    font-family: 'BOGCaps', sans-serif;
+    font-size: 19px;
+}
+
+.price{
+    text-align: center;
+    font-size: 20px;
+    font-family: 'BOGCaps', sans-serif;
+    color: #0F7DEA;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #0F7DEA;
+}
+
+.seemore{
+    width: 380px;
+    height: 55px;
+    border: none;
+    color: white;
+    font-family: 'GLCaps', sans-serif;
+    font-size: 35px;
+    margin: 0px 14px 0px 14px;
+    background: linear-gradient(322deg, #0f7dea, #0cb8ed);
+    cursor: url(assets/icons/cursors/pointer.png), pointer;
+}
+
+.seemore:hover{
+    box-shadow: 0px 0px 16px #0cb8ea;
+    transition: 0.3s;
+}
+
+@media only screen and (max-width: 1780px){
+    .post {
+        width: 440px;
+        height: 500px;
+        margin-right: 20px;
+    }
+    .cover{
+        width: 412px;
+    }
+    .seemore{
+        width: 412px;
+    }
+}
+
+@media only screen and (max-width: 1430px){
+    .post {
+        width: 474px;
+        height: 535px;
+    }
+    .cover {
+        width: 446px;
+    }
+    .seemore{
+        width: 446px;
+    }
+    .title {
+        font-size: 22px;
+    }
+    .price{
+        font-size: 28px;
+        margin-block-start: 0.2em;
+        margin-block-end: 0.2em;
+    }
+}
+
+@media only screen and (max-width: 1000px){
+    .post{
+        margin-right: 0;
+        width: 295px;
+        height: 410px;
+    }
+    .cover{
+        width: 266px;
+    }
+    .seemore {
+        width: 266px;
+        font-size: 30px;
+    }
+}
+
+/**POSTS
+<div class="posts">
+    <div class="post">
+        <img src="style/assets/gallery/i3sample.jpg" class="cover">
+        <h1 class="title">Intel Core i3 10100 – 3.6 Ghz Box Version</h1>
+        <h2 class="price">600₾</h2>
+        <button class="seemore" onclick="window.location.href='#'">სრულად ნახვა</button>
+    </div>
+    <div class="post">
+        <img src="style/assets/gallery/i3sample.jpg" class="cover">
+        <h1 class="title">Intel Core i3 10100 – 3.6 Ghz Box Version</h1>
+        <h2 class="price">600₾</h2>
+        <button class="seemore" onclick="window.location.href='#'">სრულად ნახვა</button>
+    </div>
+</div>
+**/

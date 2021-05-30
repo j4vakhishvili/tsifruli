@@ -1,0 +1,74 @@
+.social1{
+    margin-top: 7px;
+    line-height: normal;
+}
+
+.productimg{
+    height: 480px;
+    margin-top: 15px;
+    border: 2px solid #E4E9EA;
+    float: left;
+}
+
+.form1{
+    display: inline-block;
+    padding-left: 25px;
+    float: left;
+}
+
+.instock{
+    height: 25px;
+}
+
+.form1 h1{
+    font-family: 'BOGCaps', sans-serif;
+    font-size: 32px;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+    width: 610px;
+    margin-block-start: 0.3em;
+    margin-block-end: 132px;
+}
+
+.form1 h3{
+    font-family: 'BOGCaps', sans-serif;
+    font-size: 28px;
+    margin-block-start: 0px;
+    margin-block-end: 0px;
+}
+
+.form1 h2{
+    font-family: 'GLCaps', sans-serif;
+    font-size: 70px;
+    color: #0F7DEA;
+    margin-block-start: 0px;
+    margin-block-end: 0px;
+}
+
+.form1 h4{
+    font-family: 'BOGCaps', sans-serif;
+    font-size: 28px;
+    margin-block-start: 0px;
+    margin-block-end: 0px;
+}
+
+.form1 h5{
+    width: 610px;
+    height: 115px;
+    background: linear-gradient(322deg, #0f7dea, #0cb8ed);
+    color: white;
+    font-size: 50px;
+    font-family: 'GLcaps', sans-serif;
+    text-align: center;
+    line-height: 110px;
+    margin-block-start: 0px;
+    margin-block-end: 0px;
+}
+
+.form2{
+    float: left;
+}
+
+.about-title{
+    float: left;
+}

@@ -1,0 +1,48 @@
+body{
+    cursor: url(assets/icons/cursors/cursor.png), default;
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: 'BOG';
+    src: url(fonts/Bog.ttf);
+}
+
+@font-face {
+    font-family: 'BOGCaps';
+    src: url(fonts/Bog\ Headline.ttf);
+}
+
+@font-face {
+    font-family: 'GL';
+    src: url(fonts/Gilroy.ttf);
+}
+
+@font-face {
+    font-family: 'GLCaps';
+    src: url(fonts/Gilroy\ Headline.ttf);
+}
+
+::-webkit-scrollbar {
+    width: 12px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+    cursor: url(assets/icons/cursors/cursor.png), default;
+  }
+   
+  ::-webkit-scrollbar-thumb {
+    background: black; 
+    cursor: url(assets/icons/cursors/pointer.png), pointer;
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background: #333333; 
+  }
+  
+  ::selection {
+      background: #0F7DEA;
+      color: white;
+  }

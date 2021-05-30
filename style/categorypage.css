@@ -1,0 +1,74 @@
+.posts{
+    width: 1300px;
+    float: none;
+}
+
+.post {
+    width: 404px;
+    margin-right: 11px;
+}
+
+.cover{
+    width: 376px;
+}
+
+.seemore{
+    width: 376px;
+}
+
+.social1{
+    margin-top: 7px;
+    line-height: normal;
+}
+
+@media only screen and (max-width: 1780px){
+    .posts{
+        width: 920px;
+        float: none;
+    }
+}
+
+@media only screen and (max-width: 1430px){
+    .posts{
+        width: 1000px;
+        float: none;
+        padding-top: 100px;
+    }
+    .post {
+        width: 474px;
+        height: 535px;
+    }
+    .cover {
+        width: 446px;
+    }
+    .seemore{
+        width: 446px;
+    }
+    .title {
+        font-size: 22px;
+    }
+    .price{
+        font-size: 28px;
+        margin-block-start: 0.2em;
+        margin-block-end: 0.2em;
+    }
+}
+
+@media only screen and (max-width: 1000px){
+    .posts{
+        width: 300px;
+        padding-top: 70px;
+    }
+    .post{
+        margin-right: 0;
+        width: 295px;
+        height: 410px;
+    }
+    .cover{
+        width: 266px;
+    }
+    .seemore {
+        width: 266px;
+        font-size: 30px;
+    }
+}
